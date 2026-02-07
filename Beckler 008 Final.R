@@ -18,7 +18,7 @@ library(glue)
 library(zoo)
 
 # --- Constants ---
-# (Some constants from v4.8, new ones for OGIP, and for Intro Pop-up)
+
 ACRES_TO_SQFT <- 43560.0 # For OGIP calculation
 ACRES_TO_M2 <- 4046.86     # For potential other calculations
 FT_TO_M <- 0.3048         # For potential other calculations
@@ -2279,4 +2279,5 @@ server <- function(input, output, session) {
 
 
 shinyApp(ui = ui, server = server)
+
 
